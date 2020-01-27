@@ -1,0 +1,74 @@
+line 70 : 
+ why checking for every character instead check only for 
+ first one and length should not be more than one.
+
+line 53 : 
+
+// if one does not contain - then after that it wont read anything
+
+line 60 :
+
+changed the null agrument from the function.
+
+line 78 :
+
+try and catch make new function for that.
+
+line 94:
+
+try and catch in different function.
+
+
+In main function : 
+
+for parameter make less Argument.
+
+ IN booleanArgument
+
+ >> make a constructor .
+
+ >> make new class for the arguments and make them protected and ue inheritance
+
+ >> make constructor in every boolean and doble and everything 
+
+ >> in boolean function make new validate
+
+ >> make &g schema for map  
+
+ >> line 98 :
+
+ remove the null character from comparison.
+
+ >> vertical all the arguments .
+ 
+ >> if and else braces .
+
+>> parameter in constructor
+
+>> in marsherler get rid of null coparison and if else in boolean validate.
+
+>> made the argument of the function vertical they were orizontal.
+
+>> IN line 35
+
+get rid of second assert.
+
+
+>> test changed
+
+>> Line 242
+
+map check for value having :
+
+
+>> constructor if used with parameter then default should be make
+
+>> vertical alignment
+
+>> number of argument less than and equal to three
+
+>> try and catch should be one liner .
+
+>> No duplication of methods and variables.
+
+>> proper indentation .
