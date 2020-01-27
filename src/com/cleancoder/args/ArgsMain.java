@@ -19,10 +19,11 @@
 			boolean logging = arg.getBoolean('f');
 			int port = arg.getInt('n');
 			String directory = arg.getString('s');
+			double d=arg.getDouble('a');
 			String []details = arg.getStringArray('p'); 
 			Map<String,String> map=new HashMap<String,String>();
 			map=arg.getMap('g'); 
-			System.out.printf("logging is %s, port:%d, directory:%s\n",logging, port, directory);
+			System.out.printf("logging is %s, port:%d, accuracy: %f ,directory:%s\n",logging, port,d, directory);
 			if(details.length==0)System.out.printf("");
 			else
 			{
