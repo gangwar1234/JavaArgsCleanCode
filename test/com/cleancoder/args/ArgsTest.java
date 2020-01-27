@@ -15,7 +15,7 @@ import static org.junit.Assert.*;
 public class ArgsTest {
 
   public static void main(String[] args) {
-        Result result = JUnitCore.runClasses(ArgsTest.class);
+      Result result = JUnitCore.runClasses(ArgsTest.class);
       for (Failure failure : result.getFailures()) {
          System.out.println(failure.toString());
       }
@@ -37,7 +37,7 @@ public class ArgsTest {
 
       new Args("", new String[]{"-x"});
       fail("Args constructor should have thrown exception"+
-           " in testWithNoSchemaButWithOneArguments");
+       " in testWithNoSchemaButWithOneArguments");
     } catch (ArgsException e) {
       assertEquals(UNEXPECTED_ARGUMENT, e.getErrorCode());
       assertEquals('x', e.getErrorArgumentId());
@@ -282,7 +282,6 @@ public class ArgsTest {
   @Test
   public void oneMapArgument() throws Exception {
     Args args = new Args("f&", new String[] {"-f", "key1:val1"});
-    //assertTrue(args.has('f'));
     Map<String, String> map = args.getMap('f');
     assertEquals("val1", map.get("key1"));
   }
