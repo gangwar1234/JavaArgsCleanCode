@@ -1,7 +1,7 @@
-package com.cleancoder.args;
+	package com.cleancoder.args;
 
-import java.util.Iterator;
+	import java.util.Iterator;
 
-public interface ArgumentMarshaler {
-  void set(Iterator<String> currentArgument) throws ArgsException;
-}
+	public interface ArgumentMarshaler {
+		void set(Iterator<String> currentArgument) throws ArgsException;
+	}
