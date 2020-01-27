@@ -1,3 +1,9 @@
+## NAME    : NEERJA GANGWAR
+## ROLL NO : 2019201020
+
+
+This is the java version of the Args program described in: http://butunclebob.com/ArticleS.UncleBob.CleanCodeArgs
+
 
 ### Schema Used :
     - char    - Boolean arg.
@@ -50,7 +56,8 @@
 ### Execution of Test
      
       * Run the command given below from the root folder of this repo
-      * 'java -cp "lib/junit-4.13.jar:lib/hamcrest-core-1.3.jar:build/jar/args.jar" ./test/com/cleancoder/args/ArgsTest.java
+      * 'java -cp "lib/junit-4.13.jar:lib/hamcrest-core-1.3.jar:build/jar/args.jar" 
+      ./test/com/cleancoder/args/ArgsTest.java
         testCreateWithNoSchemaOrArguments'
 
           
@@ -70,7 +77,7 @@
       * There is nothing after catch/ finally block.
       * Null is avoided to pass as a parameter.
       * Comparison with NULL is done using optional class.
-      * Proper Inden tation of functions.
+      * Proper Indentation of functions.
       * Object Oriented Programming concepts such as data encapsulation and
         abstraction and interfaces.
       * Declared blank default constructor if parameterized is required.   
@@ -82,9 +89,9 @@
 ### Bugs -
       
       * As per the above Schema, -sa as input should be invalid input but 
-        givenfunction was not showing the same. It is first calculating the
-        string for -s and a is also part of the schema, so it is also  
-        expecting the corresponding value of it.
+        given function was not showing the same. It is first calculating the
+        string for -s and a is also valid  schema, so it is also  
+        expecting the corresponding value of it. instead need to show that input is invalid
       
       * test case for if Map is empty was not implemented. 
          
